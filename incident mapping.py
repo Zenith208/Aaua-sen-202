@@ -1,0 +1,17 @@
+print("=" * 40)
+print(" SECURITY INCIDENT MAPPING (SIM)")
+print("=" * 40)
+
+name = input("Full Name: ")
+category = input("Category (Student/Staff/Landlord): ")
+incident = input("Incident Type: ")
+location = input("Location: ")
+description = input("Description: ")
+
+print("\nIncident Report Submitted Successfully!")
+print("-" * 40)
+print("Name:", name)
+print("Category:", category)
+print("Incident:", incident)
+print("Location:", location)
+print("Description:", description)
